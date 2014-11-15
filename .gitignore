@@ -18,5 +18,4 @@ nytprof.out
 .prove
 Utils.c
 buildtmp
-.travis.yml
 Iston-Utils-XS-*
