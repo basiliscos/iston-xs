@@ -1,0 +1,66 @@
+{
+   "abstract" : "XS helpers for Iston",
+   "author" : [
+      "DMOL, dmol@cpan.org"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.421",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Iston-XS",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::CBuilder" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.42",
+            "perl" : "5.016"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Carp" : "0",
+            "List::MoreUtils" : "0",
+            "perl" : "5.016"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "SDL" : "0",
+            "Test::Fatal" : "0",
+            "Test::More" : "0",
+            "Test::Warnings" : "0"
+         }
+      }
+   },
+   "provides" : {
+      "Iston::XS::Utils" : {
+         "file" : "lib/Iston/XS/Utils.pm",
+         "version" : "0.01"
+      },
+      "Iston::XS::Utils::PP" : {
+         "file" : "lib/Iston/XS/Utils/PP.pm"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/basiliscos/iston-xs/issues"
+      },
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ],
+      "repository" : {
+         "url" : "https://github.com/basiliscos/iston-xs"
+      }
+   },
+   "version" : "0.01"
+}

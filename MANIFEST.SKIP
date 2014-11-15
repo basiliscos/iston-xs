@@ -1,0 +1,13 @@
+.prove
+.travis.yml
+AntTweakBar.c
+AntTweakBar.o
+.git
+blib
+Makefile
+MANIFEST.bak
+MANIFEST.SKIP
+^MYMETA\.
+_build
+buildtmp
+^Build$
