@@ -11,3 +11,4 @@ MANIFEST.SKIP
 _build
 buildtmp
 ^Build$
+^Build.bat$

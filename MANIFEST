@@ -1,5 +1,6 @@
 Build.PL
 Changes
+lib/Iston/XS.pm
 lib/Iston/XS/Utils.pm
 lib/Iston/XS/Utils.xs
 lib/Iston/XS/Utils/PP.pm

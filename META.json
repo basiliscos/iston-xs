@@ -42,9 +42,12 @@
       }
    },
    "provides" : {
-      "Iston::XS::Utils" : {
-         "file" : "lib/Iston/XS/Utils.pm",
+      "Iston::XS" : {
+         "file" : "lib/Iston/XS.pm",
          "version" : "0.01"
+      },
+      "Iston::XS::Utils" : {
+         "file" : "lib/Iston/XS/Utils.pm"
       },
       "Iston::XS::Utils::PP" : {
          "file" : "lib/Iston/XS/Utils/PP.pm"

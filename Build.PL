@@ -5,7 +5,7 @@ use Module::Build;
 
 my $build = Module::Build->new(
     module_name        => 'Iston::XS',
-    dist_version_from  => 'lib/Iston/XS/Utils.pm',
+    dist_version_from  => 'lib/Iston/XS.pm',
     dist_author        => 'DMOL, dmol@cpan.org',
     dist_abstract      => 'XS helpers for Iston',
     dynamic_config     => 1,

@@ -19,9 +19,11 @@ meta-spec:
   version: '1.4'
 name: Iston-XS
 provides:
+  Iston::XS:
+    file: lib/Iston/XS.pm
+    version: '0.01'
   Iston::XS::Utils:
     file: lib/Iston/XS/Utils.pm
-    version: '0.01'
   Iston::XS::Utils::PP:
     file: lib/Iston/XS/Utils/PP.pm
 requires:
