@@ -4,6 +4,7 @@
 #include "XSUB.h"
 
 HV* find_uniq_pixels(SV* pixels_ref){
+	dTHX;
     HV* found_colors = newHV();
     SV* binary_string = SvRV(pixels_ref);
     STRLEN len;
