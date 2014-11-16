@@ -10,7 +10,7 @@ use SDL::Image;
 my $sample = SDL::Image::load('t/data/2-colors.png');
 my $ptr = $sample->get_pixels_ptr;
 
-cmpthese(100, {
+cmpthese(10, {
     'pure perl pattern extracting' => sub {
         Iston::XS::Utils::find_uniq_pixels($ptr);
     },
@@ -20,7 +20,7 @@ cmpthese(100, {
 });
 
 my @pattern = keys %{ Iston::XS::Utils::find_uniq_pixels($ptr) };
-cmpthese(100, {
+cmpthese(10, {
     'pure perl pattern matching' => sub {
         Iston::XS::Utils::find_matching_pixels($ptr, \@pattern);
     },
